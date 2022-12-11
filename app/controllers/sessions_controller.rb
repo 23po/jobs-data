@@ -1,5 +1,5 @@
 class SessionsController < ApplicationController
-    
+   
     #create sesssion after auth
     def create
         user = User.find_by(name: params[:name])

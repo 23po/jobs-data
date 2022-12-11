@@ -22,6 +22,13 @@ gem "puma", "~> 5.0"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+# The easiest way to configure CORS on your Rails app is to use rack-cors gem. You can install it like any other gem, by executing: 
+
+# gem install rack-cors
+# or by adding the following line into your Gemfile: 
+
+gem 'rack-cors'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
