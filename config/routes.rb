@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :users
   resources :jobs
+  # get "/sessions", to: "sessions#index"
   post "/signup", to: "users#create"
   get "/me", to: "users#show"
   post "/login", to: "sessions#create"

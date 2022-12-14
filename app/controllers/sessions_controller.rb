@@ -1,4 +1,12 @@
 class SessionsController < ApplicationController
+
+    skip_before_action :authorized, only: :create
+
+    # def index 
+    # sessions = Session.all
+    # render json: sessions
+    
+    # end
    
     #create sesssion after auth
     def create
